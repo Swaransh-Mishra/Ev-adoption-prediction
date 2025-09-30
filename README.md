@@ -19,12 +19,12 @@ A **machine learning powered web app** that forecasts **Electric Vehicle (EV) ad
 ## 📂 Project Structure
 
 EV_Adoption_Forecasting/
-├── app.py                        # Streamlit application
-├── forecasting_ev_model.pkl      # Trained ML model
-├── preprocessed_ev_data.csv      # Historical EV adoption data
-├── ev-car-factory.jpg            # Header image
-├── EV_Adoption_Forecasting.ipynb # Notebook for model building
-└── README.md                     # Project documentation
+- ├── app.py                        # Streamlit application
+- ├── forecasting_ev_model.pkl      # Trained ML model
+- ├── preprocessed_ev_data.csv      # Historical EV adoption data
+- ├── ev-car-factory.jpg            # Header image
+- ├── EV_Adoption_Forecasting.ipynb # Notebook for model building
+- └── README.md                     # Project documentation
 
 
 ---
@@ -40,12 +40,26 @@ EV_Adoption_Forecasting/
 
 ## 📥 Installation
 
-Clone this repository and install dependencies:
+1.Clone this repository and install dependencies:
 
 git clone https://github.com/Swaransh-Mishra/EV_Adoption_Forecasting.git
 cd EV_Adoption_Forecasting
 pip install -r requirements.txt
 
+2.🛠 Setup with Virtual Environment (venv)
+
+It’s recommended to use a virtual environment for dependency management.
+
+a.Create venv 
+python -m venv venv
+
+b.Activate venv
+
+- On Windows:    venv\Scripts\activate
+- On Mac/Linux:  source venv/bin/activate
+
+3.Install dependencies
+pip install -r requirements.txt
 
 ▶️ Running Locally
 
@@ -60,7 +74,7 @@ Then open your browser at:
 
 🌐 Live Demo
 
-🚘 Try it here: EV Adoption Forecasting App
+🚘 Try it here: [EV Adoption Forecasting App](https://ev-adoption-prediction-ahvyjmm35t6u6fyf3gh5qy.streamlit.app/)  
 
 
 📊 Example Output
@@ -74,5 +88,5 @@ Then open your browser at:
 👨‍💻 Author
 
 Swaransh Mishra
-🌐 GitHub
- • LinkedIn
+🌐 [GitHub](https://github.com/Swaransh-Mishra)  
+   [LinkedIn](https://www.linkedin.com/in/swaransh-mishra-a85123258/)  
