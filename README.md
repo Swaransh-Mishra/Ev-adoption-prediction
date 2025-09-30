@@ -19,12 +19,12 @@ A **machine learning powered web app** that forecasts **Electric Vehicle (EV) ad
 ## 📂 Project Structure
 
 EV_Adoption_Forecasting/
-│── app.py # Streamlit application
-│── forecasting_ev_model.pkl # Trained ML model
-│── preprocessed_ev_data.csv # Historical EV adoption data
-│── ev-car-factory.jpg # Header image
-│── EV_Adoption_Forecasting.ipynb # Notebook for model building
-│── README.md # Project documentation
+- │── app.py # Streamlit application
+- │── forecasting_ev_model.pkl # Trained ML model
+- │── preprocessed_ev_data.csv # Historical EV adoption data
+- │── ev-car-factory.jpg # Header image
+- │── EV_Adoption_Forecasting.ipynb # Notebook for model building
+- │── README.md # Project documentation
 
 
 ---
@@ -42,7 +42,6 @@ EV_Adoption_Forecasting/
 
 Clone this repository and install dependencies:
 
-```bash
 git clone https://github.com/user-name/EV_Adoption_Forecasting.git
 cd EV_Adoption_Forecasting
 pip install -r requirements.txt
