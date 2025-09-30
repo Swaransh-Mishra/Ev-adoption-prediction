@@ -43,10 +43,10 @@ EV_Adoption_Forecasting/
 
 1.🛠 Setup with Virtual Environment (venv)
 
-It’s recommended to use a virtual environment for dependency management.
+- It’s recommended to use a virtual environment for dependency management.
 
 a.Create venv :
-python -m venv venv
+- python -m venv venv
 
 b.Activate venv:
 
@@ -54,7 +54,7 @@ b.Activate venv:
 - On Mac/Linux:  source venv/bin/activate
 
 3.Install dependencies:
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 --- 
 
