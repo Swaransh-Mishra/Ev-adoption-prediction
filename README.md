@@ -40,30 +40,27 @@ EV_Adoption_Forecasting/
 
 ## 📥 Installation
 
-1.Clone this repository and install dependencies:
 
-git clone https://github.com/Swaransh-Mishra/EV_Adoption_Forecasting.git
-cd EV_Adoption_Forecasting
-pip install -r requirements.txt
-
-2.🛠 Setup with Virtual Environment (venv)
+1.🛠 Setup with Virtual Environment (venv)
 
 It’s recommended to use a virtual environment for dependency management.
 
-a.Create venv 
+a.Create venv :
 python -m venv venv
 
-b.Activate venv
+b.Activate venv:
 
 - On Windows:    venv\Scripts\activate
 - On Mac/Linux:  source venv/bin/activate
 
-3.Install dependencies
+3.Install dependencies:
 pip install -r requirements.txt
+
+--- 
 
 ▶️ Running Locally
 
-Run the Streamlit app with:
+- Run the Streamlit app with:
 
 streamlit run app.py
 
@@ -71,10 +68,13 @@ streamlit run app.py
 Then open your browser at:
 👉 http://localhost:8501
 
+---
 
 🌐 Live Demo
 
 🚘 Try it here: [EV Adoption Forecasting App](https://ev-adoption-prediction-ahvyjmm35t6u6fyf3gh5qy.streamlit.app/)  
+
+---
 
 
 📊 Example Output
@@ -84,6 +84,8 @@ Then open your browser at:
 - 🔄 Multi-county comparison over 3 years
 
 - 📉 Percentage growth insights
+
+---
 
 👨‍💻 Author
 
