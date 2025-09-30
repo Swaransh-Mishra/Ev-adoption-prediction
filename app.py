@@ -14,12 +14,18 @@ model = joblib.load('forecasting_ev_model.pkl')
 # === Styling ===
 st.markdown("""
     <style>
-        body {
-            background-color: #fcf7f7;
-            color: #000000;
-        }
         .stApp {
             background: linear-gradient(to right, #c2d3f2, #7f848a);
+        }
+
+        /* --- FIX SUCCESS ALERT VISIBILITY --- */
+        div[data-testid="stAlert"][kind="success"] {
+            background-color: #d4edda !important;  /* Light green background */
+            color: #155724 !important;             /* Dark green text */
+            border: 1px solid #c3e6cb;
+            border-radius: 0.5rem;
+            font-weight: bold;
+            font-size: 16px;
         }
     </style>
 """, unsafe_allow_html=True)
